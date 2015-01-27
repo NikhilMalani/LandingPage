@@ -224,16 +224,21 @@ body {
 
 /* Styles for parallax start */ 
 .parallax {
-  height: 450px;
+  height: 500px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-perspective: 400px;
-  perspective: 400px;
+  -webkit-perspective: 300px;
+  perspective: 300px;  
+  /*-webkit-perspective-origin: 100% 100%;*/
+  /*perspective-origin: 100% 100%;*/
 }
 .parallax__group {
   position: relative;
-  height: 450px;
+  height: 500px;
+  /* THE HEIGHT VALUE IS DIFFERENT FROM THE CSS3 PARALLAX TUTORIAL
+  BECAUSE OTHERWISE THE IMAGES OVERLAP */
+  /*height:100vh;*/
   height: 300vh;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -244,27 +249,22 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  /*-webkit-transform-origin: 100% 100%;*/
+  /*transform-origin: 100% 100%;*/
 }
 .parallax__layer--base {
   transform: translateZ(0px);
   -webkit-transform: translateZ(0px);
-  -ms-transform: translateZ(0px); /* IE 9 */
-  -o-transform: translateZ(0px); /* Opera */
-  -moz-transform: translateZ(0px); /* Firefox */
   z-index: 3;
 }
 .parallax__layer--back {
-  transform: translateZ(-400px) scale(2);  
-  -ms-transform: translateZ(-400px) scale(2); /* IE 9 */
-  -o-transform: translateZ(-400px) scale(2); /* Opera */
-  -moz-transform: translateZ(-400px) scale(2); /* Firefox */
+  transform: translateZ(-300px) scale(2);  
+  -webkit-transform: translateZ(-300px) scale(2);
   z-index: 2;
 }
 .parallax__layer--deep {
-  transform: translateZ(-800px) scale(3);
-  -ms-transform: translateZ(-800px) scale(3); /* IE 9 */
-  -o-transform: translateZ(-800px) scale(3); /* Opera */
-  -moz-transform: translateZ(-800px) scale(3); /* Firefox */
+  transform: translateZ(-600px) scale(3);
+  -webkit-transform: translateZ(-600px) scale(3);
   z-index: 1;
 }
 
