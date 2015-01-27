@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html><head>
+    <title>
+      Landing Page
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap Styles-->
+    <link href="../common/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Common styles -->
+    <link href="../common/css/styles.css" type="text/css" rel="stylesheet"/>  
+    
+    <!-- Page Specific Styles -->
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet"/>  
+    <link href="css/stylesLandingPage.css" type="text/css" rel="stylesheet"/>  
+    <link href="css/normalize.css" type="text/css" rel="stylesheet"/> 
+    
+    <!-- Full screen background images styles start -->
+    <link href="css/stylesBackgroundImages.css" type="text/css" rel="stylesheet"/>
+    <!-- Full scren background images styles end -->
+    
+    <!-- Embed Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+        
+  </head>
+  
+  <body onLoad="hideNavbarFooter()">
+    
+    <!-- Code for header bar start -->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="../common/images/logo.png" width="90"/>
+        </div>
+       
+      <div class="navbar-collapse collapse">
+       <form class="navbar-form navbar-left" role="search" name="searchBar">
+        <div class="form-group">
+          <label class="sr-only" for="searchBox">Lookup Product or User</label>
+          <input id="searchBox" type="text" class="form-control" placeholder="Lookup Product or User" tabindex="100">
+          <button type="submit" class="btn btn-custom" tabindex="101"> Find </button>
+        </div>
+       </form>            
+       
+
+      <ul class="nav navbar-nav navbar-right">
+        <button type="submit" class="btn btn-custom navbar-right-btn" tabindex="101" data-toggle="modal" data-target="#formLoginRegister" > 
+        Get Started! 
+        </button>
+      </ul>
+      
+      </div><!--/.nav-collapse -->
+      </div><!-- /.container-->
+    </div><!-- /.navbar -->
+    <!-- Code for header bar end -->
+
+    
+    <div id="container" class="parallax">
+        
+	<div id="divTopSection" class="pageZero parallax__group" >
+    <div class="ZeroBG parallax__layer parallax__layer--deep">	
+    
+        <!-- Full screen background images start -->
+        <ul class="cb-slideshow">
+          <li><span>Image 01</span></li>
+          <li><span>Image 02</span></li>
+          <li><span>Image 03</span></li>
+          <li><span>Image 04</span></li>
+          <li><span>Image 05</span></li>
+          <li><span>Image 06</span></li>
+        </ul>
+        <!-- Full screen background images end -->
+    </div><!-- /ZeroBG -->
+   
+    
+    <div class="row">
+    <div class="col-md-4">
+    	<div id="divTopLendNow" class="center-block parallax__layer parallax__layer--base topLendNow">
+          <a href="#" data-toggle="modal" data-target="#formLendNow" class="text-style-8">Start Now!</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+    
+	<div id="divTopLogoTex" class="parallax__layer parallax__layer--back">
+    <img class="img-responsive center-block imgLogo" id="imgLogo" src="images/logo.png"/>
+	<p class="text-style-logo">Some Text</p>
+    <br/><br/>
+    
+    </div><!-- /divTopLogoText --> 
+    
+    </div><!-- /col-md-4 -->
+    <div class="col-md-4">
+    	<div id="divTopBorrowNow" class="center-block parallax__layer parallax__layer--base topBorrowNow">
+           <a href="#" data-toggle="modal" data-target="#formBorrowNow" class="text-style-8">Start Now!</a>
+        </div>
+    </div>
+    </div><!-- /row -->
+    
+    </div><!-- /divTopSection -->
+    
+    <div id="divWhatIsYBS" class="pageOne parallax__group">
+    <div class="OneBG center-block parallax__layer parallax__layer--deep"></div>
+       
+    <div class="row center-block">
+    <div class="col-md-4"> 
+    
+      <div class="parallax__layer parallax__layer--base">
+      <p class="text-style-7">Some Text</p>
+      </div>
+      
+    </div>
+    <div class="col-md-8">
+    
+    <div id="divWhatIsYBSText" class="parallax__layer parallax__layer--back">
+    
+    <div class="textCircle center-block ">
+
+    <p class="text-style-6">Text Heading</p>
+    
+    <img id="introunderline" class="underline" src="images/underline.png"/>
+    
+    <p class="text-style-1">
+        Some Text
+    </p>
+       
+    <p class="text-style-1">
+     <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+	
+    </div><!-- /textCircle -->
+	</div><!-- /divWhatIsYBSText --> 
+    </div><!-- /col-md-4 -->
+    </div><!-- /row -->       
+	
+    </div><!-- /divWhatIsYBS -->
+    
+    <div id="divYLend" class="pageTwo parallax__group" >
+	<div class="TwoBG center-block parallax__layer parallax__layer--deep"></div>
+        
+    <div class="row center-block">
+    <div class="col-md-8">
+    <div id="divYLendText" class="parallax__layer parallax__layer--back">
+    
+    <div class="textCircle center-block">
+    <p class="text-style-6">
+      Text Heading
+    </p>
+
+    <img id="ylendunderline" class="underline" src="images/underline.png"/><br>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+	</div><!-- /textCircle -->
+	</div><!-- /divYLendText --> 
+    </div><!-- /col-md-4 -->
+    <div class="col-md-4">
+    
+      <div class="parallax__layer parallax__layer--base">
+      <p class="text-style-7">Some Text</p>
+      </div>
+      
+      </div>
+    </div><!-- /row -->   
+    
+    </div><!-- /divYLend -->
+    
+  
+    <div id="divYBorrow" class="pageThree parallax__group" >
+    <div class="ThreeBG center-block parallax__layer parallax__layer--deep"></div>
+
+    <div class="row center-block">
+    <div class="col-md-4">
+    
+      <div class="parallax__layer parallax__layer--base">
+      <p class="text-style-7">Some Text
+      </div>
+      
+    </div>
+    <div class="col-md-8">
+    <div id="divYBorrowText" class="parallax__layer parallax__layer--back">
+    
+    <div class="textCircle center-block">
+    <p class="text-style-6">
+      Text Heading
+    </p>
+
+    <img id="yborrowunderline" class="underline" src="images/underline.png"/><br>
+
+    <p class="text-style-1">
+      <img src="images/bulletpoint.png"/> Some Text
+    </p>
+
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+	</div><!-- /textCircle -->
+	</div><!-- /divYBorrowText --> 
+    </div><!-- /col-md-4 -->
+    </div><!-- /row -->  
+    
+    </div><!-- /divYBorrow -->
+    
+	<div id="divSecurity" class="pageFour parallax__group" >
+    <div class="FourBG center-block parallax__layer parallax__layer--deep"></div>
+
+    <div class="row center-block">
+    <div class="col-md-8">
+    <div id="divSecurityText" class="parallax__layer parallax__layer--back">
+    
+    <div class="textCircle center-block">
+    <p class="text-style-6">
+      Text Heading
+    </p>
+
+    <img id="yoursecurityunderline" class="underline" src="images/underline.png"/>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+      <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+
+    <p class="text-style-1">
+     <img id="bulletpoint1-3" src="images/bulletpoint.png"/> Some Text
+    </p>
+    
+    </div><!-- /textCircle -->
+	</div><!-- /divSecurityText --> 
+    </div><!-- /col-md-4 -->
+    <div class="col-md-4">
+    
+      <div class="parallax__layer parallax__layer--base">
+      <p class="text-style-7">Some Text
+      </div>
+      
+    </div>
+    </div><!-- /row -->   
+    
+    </div><!-- /divSecurity -->
+    
+    <div id="divContact" class="pageFive parallax__group">
+    <div class="FiveBG center-block parallax__layer parallax__layer--deep"></div>
+
+    <div class="row center-block">
+    <div class="col-md-4">
+    
+      <div class="parallax__layer parallax__layer--base">
+      <p class="text-style-7">Some Text
+      </div>
+      
+    </div>
+    
+    <div class="col-md-8">
+    <div id="divContactText" class="parallax__layer parallax__layer--back">
+    
+    <div class="textCircle center-block">
+    <p class="text-style-6	">
+      Text Heading
+    </p>
+
+    <img id="contactuseunderline" class="underline" src="images/underline.png"/>
+    
+	<form name="formContact" role="form" class="formContact">
+    <label class="sr-only" for="tbName">Name</label>
+    <input type="text" class="form-control" id="tbName" placeholder="Name">
+    
+    <label class="sr-only" for="tbEmail">Email</label>
+    <input type="email" class="form-control" id="tbEmail" placeholder="Email">
+    
+    <label class="sr-only" for="tbMobile">Mobile</label>
+    <input type="tel" class="form-control" id="tbMobile" placeholder="Mobile">
+    
+    <label class="sr-only" for="taOtherComments"></label>
+    <textarea class="form-control" rows="2" id="taComments" placeholder="Comments"></textarea>
+    
+    <button type="submit" class="btn btn-custom" tabindex="7">Get In Touch</button>
+    </form>
+    
+    </div><!-- / textCircle -->
+    </div><!-- /divContactText --> 
+    </div><!-- /col-md-4 -->
+    </div><!-- /row -->   
+    
+    </div><!-- /divContact -->
+    
+    </div><!-- /parallax -->
+    </div><!-- container -->
+            
+    <footer class="footer SixBG">
+      <div class="row center-block">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <ul class="footer_menu">
+			<li><a href="">How it works</a></li>
+			<li><a href="">Frequently Asked Questions</a></li>
+			<li><a href="">Who are we</a></li>
+			<li><a href="">Terms & Conditions</a></li>
+			<li><a href="">Privacy Policy</a></li>
+			<li><a href="https://www.facebook.com/" class="socialLink">
+            	<img class="socialImage" src="images/facebook.png" alt="Facebook"/>
+                </a></li>
+			<li><a href="https://twitter.com/" class="socialLink">
+            	<img class="socialImage" src="images/twitter.png" alt="Twitter"/>
+                </a></li>
+		</ul>
+      </div>
+      <div class="col-md-3"></div>
+      </div>
+    </footer>
+
+
+    <!-- Navigation icons start-->
+    <div id="toTop" class="scroll toTop">
+    <a href="#divTopSection"><img src="images\bulletpoint.png"></a>
+	</div>
+    
+    <div id="toOne" class="scroll toOne">
+    <a href="#divWhatIsYBS"><img src="images\bulletpoint.png"></a>
+    </div>
+    
+    <div id="toTwo" class="scroll toTwo">
+    <a href="#divYLend"><img src="images\bulletpoint.png"></a> 
+    </div>
+    
+    <div id="toThree" class="scroll toThree">
+    <a href="#divYBorrow"><img src="images\bulletpoint.png"></a> 
+	</div>
+    
+    <div id="toFour" class="scroll toFour">
+    <a href="#divSecurity"><img src="images\bulletpoint.png"></a> 
+    </div>
+    
+    <div id="toFive" class="scroll toFive">
+    <a href="#divContact"><img src="images\bulletpoint.png"></a> 
+    </div>
+    
+    <!-- Navigation icons end-->  
+       
+    <!-- Scripts Start -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) start-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../common/js/bootstrap.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) end-->
+    
+    <!-- Full scren background images script start -->
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Full scren background images script end --> 
+   
+    <!-- Script for scrolling start-->
+	<script>
+	
+	$(function scrollInPage() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+		  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			  $('.parallax').animate({scrollTop: target[0].offsetTop}, 600);
+			  return false;
+			}
+		  }
+	  });
+	});
+
+   </script> 
+   <!-- Script for scrolling end-->  
+   
+   <!-- Script to hide/unhide navbar start -->
+   <script>
+   
+    $(function hideNavbarFooter() {
+		$('.navbar').css('opacity',0);
+		$('.footer').css('opacity',0);
+	});
+		
+    $('.parallax').on('scroll',function(e) {$('.navbar').css('opacity', ($('.parallax').scrollTop() / 500));
+    });
+	
+	$('.parallax').on('scroll',function(e) {$('.footer').css('opacity', ($('.parallax').scrollTop() / 500));
+    });
+/*	$(function showFooter() {
+		if ((('.parallax').scrollTop()) > 50){
+		$('.footer').css('opacity',100);
+		}
+	});*/
+	
+   </script>
+   <!-- Script to hide/unhide navbar start -->
+   
+   
+   <!-- Scripts End -->
+    
+  </body>
+</html>
